@@ -15,7 +15,7 @@ namespace ShadeRadio
         static void Main(string[] args)
         {
             stations = LoadStationsFromFile("stations.txt");
-
+            Console.Title = "Shade Radio";
             if(stations.Length == 0)
             {
                 Console.WriteLine("Add some stations to file stations.txt");
